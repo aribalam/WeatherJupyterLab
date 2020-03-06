@@ -1,0 +1,1 @@
+cp kernel_extension.py ~/.ipython/extensions/
