@@ -1,0 +1,49 @@
+.side-panel {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.side-panel-content-wrapper {
+    padding: 20px;
+}
+
+.side-panel-input {
+    margin-bottom: 10px;
+}
+
+.side-panel-input input {
+    border: 0;
+    border-bottom: 2px solid gray;
+    outline: 0;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.side-panel-input input:focus {
+    border-bottom: 2px solid slateblue;
+}
+
+.side-panel-input button {
+    border: 0;
+    outline: 0;
+    padding: 7px;
+    margin: 5px;
+    background-color: slateblue;
+    color: white;
+    font-size: 15px;
+}
+
+.side-panel-input button:active {
+    /* position: relative; */
+    /* top: 1px; */
+    outline: 1px solid black;
+    padding-right: 9;
+    padding-left: 9;
+}
+
+.weather-box {
+    margin-top: 10px;
+}
