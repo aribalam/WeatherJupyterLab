@@ -12,6 +12,7 @@ A JupyterLab extension.
 ## Install
 
 ```bash
+./install.sh
 jupyter labextension install weather_ext2
 ```
 
